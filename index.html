@@ -13,98 +13,119 @@
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
+    <!-- Navbar -->
+    <nav class="bg-gray-800 fixed w-full z-10 top-0 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-2xl font-bold text-blue-400">Hani Zahran</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                <li><a href="#education" class="hover:text-blue-400">Education</a></li>
+                <li><a href="#certifications" class="hover:text-blue-400">Certifications</a></li>
+                <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+                <li><a href="#cv" class="hover:text-blue-400">CV</a></li>
+                <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Hero Section -->
-    <section class="flex flex-col items-center justify-center h-48 text-center p-4 bg-gradient-to-r from-blue-900 to-gray-900 shadow-lg">
-        <h1 class="text-5xl font-bold tracking-wide">Hani Zahran</h1>
-        <p class="text-lg mt-1 text-gray-300">Software Engineer | Web & AI Developer | Full Stack Developer</p>
-    </section>
+    <!-- Hero Section -->
+<section class="flex flex-col items-center justify-center h-screen text-center p-4 bg-gradient-to-b from-[#0a192f] to-[#1c3554] shadow-lg">
+    <h1 class="text-5xl font-bold tracking-wide">Hani Zahran</h1>
+    <p class="text-lg mt-2 text-gray-300">Software Engineer | Web & AI Developer | Full Stack Engineer</p>
+    <p class="mt-4 text-gray-400 text-md italic">"Code is like humor. When you have to explain it, it’s bad." - Cory House</p>
+</section>
+
 
     <!-- About Me -->
-    <section class="max-w-4xl mx-auto text-center py-10 px-6">
+    <section id="about" class="max-w-4xl mx-auto text-center py-16 px-6">
         <h2 class="text-4xl font-semibold text-blue-400">About Me</h2>
         <p class="mt-4 text-gray-300 text-lg leading-relaxed">
             Passionate about software engineering, I thrive on developing scalable, high-performance applications that 
             enhance user experiences. My expertise spans across Full-Stack Development, Artificial Intelligence, and Automation. 
             I am always eager to explore innovative technologies, solve challenging problems, and build impactful solutions.
         </p>
-        <p class="mt-4 text-gray-300 text-lg leading-relaxed">
-            I specialize in designing efficient architectures, implementing optimized algorithms, and developing 
-            user-friendly web applications. Whether it's backend development, API integration, or AI-based projects, 
-            I ensure that every solution is built with performance, scalability, and usability in mind.
-        </p>
     </section>
 
     <!-- Education -->
-    <section class="max-w-4xl mx-auto py-10 px-6">
+    <section id="education" class="max-w-4xl mx-auto py-16 px-6">
         <h2 class="text-4xl font-semibold text-center text-green-400">Education</h2>
-        <div class="mt-6 space-y-6">
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-semibold text-yellow-400">B.Sc. in Software Engineering</h3>
-                <p class="mt-2 text-gray-300">Braude Academic College of Engineering (2020 - 2024)</p>
-                <p class="mt-2 text-gray-300">Focused on Full-Stack Development, AI, and Cloud Computing.</p>
-            </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+            <h3 class="text-xl font-semibold text-yellow-400">B.Sc. in Software Engineering</h3>
+            <p class="mt-2 text-gray-300">Braude Academic College of Engineering (2020 - 2024)</p>
         </div>
     </section>
 
     <!-- Certifications & Courses -->
-    <section class="max-w-4xl mx-auto py-10 px-6">
+    <section id="certifications" class="max-w-4xl mx-auto py-16 px-6">
         <h2 class="text-4xl font-semibold text-center text-purple-400">Certifications & Courses</h2>
-        <div class="mt-6 space-y-6">
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class="text-xl font-semibold text-blue-400">Node.js, Express, MongoDB & More: The Complete Bootcamp 2024</h3>
-                <p class="mt-2 text-gray-300">Completed a 42-hours intensive bootcamp covering full-stack development using Node.js, Express, and MongoDB.</p>
-                <p class="mt-2 text-gray-400">Instructor: Jonas Schmedtmann</p>
-                <p class="mt-2 text-gray-400">Completion Date: Nov 27, 2023</p>
-                <a href="https://www.udemy.com/certificate/UC-9e2f1d01-cad0-4337-acee-c28220949008/" class="text-blue-400 hover:underline">View Certificate</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="max-w-4xl mx-auto py-10 px-6">
-        <h2 class="text-4xl font-semibold text-center text-green-400">Skills & Technologies</h2>
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6 text-center">
-            <span class="bg-gray-800 text-blue-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">Python</span>
-            <span class="bg-gray-800 text-green-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">Java</span>
-            <span class="bg-gray-800 text-red-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">C</span>
-            <span class="bg-gray-800 text-indigo-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">React</span>
-            <span class="bg-gray-800 text-yellow-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">MySQL</span>
-            <span class="bg-gray-800 text-purple-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">OpenCV</span>
-            <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">Git</span>
-            <span class="bg-gray-800 text-teal-400 px-4 py-2 rounded-lg shadow-md hover:bg-gray-700 transition">Docker</span>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg mt-6">
+            <h3 class="text-xl font-semibold text-blue-400">Node.js, Express, MongoDB & More: The Complete Bootcamp 2024</h3>
+            <p class="mt-2 text-gray-300">Completed a 42-hours intensive bootcamp on full-stack development.</p>
+            <a href="https://www.udemy.com/certificate/UC-9e2f1d01-cad0-4337-acee-c28220949008/" class="text-blue-400 hover:underline">View Certificate</a>
         </div>
     </section>
 
     <!-- Projects -->
-    <section class="max-w-4xl mx-auto py-10 px-6">
-        <h2 class="text-4xl font-semibold text-center text-yellow-400">Projects</h2>
-        <div class="mt-6 space-y-6">
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-                <h3 class="text-xl font-semibold text-blue-400">Lung X-ray Analysis (Final Project)</h3>
-                <p class="mt-2 text-gray-300">Machine Learning-based system for pneumonia detection using AI & OpenCV.</p>
-                <a href="https://github.com/tareksleman/Estimation-of-smoking-associated-damage-based-on-nuclear-lung-images" class="text-blue-400 hover:underline">GitHub Repo</a>
-            </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-                <h3 class="text-xl font-semibold text-green-400">Trips & Travel Website</h3>
-                <p class="mt-2 text-gray-300">A modern web platform for travelers to explore destinations, find recommended attractions, and plan trips. Built with React and integrates external APIs for real-time data.</p>
-                <a href="https://github.com/haniz1999/Travel-UpdatedProject" class="text-blue-400 hover:underline">GitHub Repo</a> |
-                <a href="https://travel-updated-project.vercel.app/" class="text-blue-400 hover:underline">Live Demo</a>
-            </div>
-			<div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
-                <h3 class="text-xl font-semibold text-yellow-400">ZERLI - Online Flower Shop</h3>
-                <p class="mt-2 text-gray-300">E-commerce platform for buying flowers online, featuring user authentication, delivery management, and payment processing.</p>
-                <a href="https://github.com/haniz1999/zerli" class="text-blue-400 hover:underline">GitHub Repo</a>
-            </div>
+    <!-- Projects Section -->
+<section id="projects" class="max-w-5xl mx-auto py-16 px-6">
+    <h2 class="text-4xl font-semibold text-center text-yellow-400">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+        <!-- First Project -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-blue-400">Lung X-ray Analysis</h3>
+            <p class="mt-2 text-gray-300">Machine Learning-based system for pneumonia detection using AI & OpenCV.</p>
+            <a href="https://github.com/tareksleman/Estimation-of-smoking-associated-damage-based-on-nuclear-lung-images" class="text-blue-400 hover:underline">GitHub Repo</a>
         </div>
-    </section>
+
+        <!-- Second Project -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-green-400">Trips & Travel Website</h3>
+            <p class="mt-2 text-gray-300">A modern web platform for travelers to explore destinations & plan trips.</p>
+            <a href="https://github.com/haniz1999/Travel-UpdatedProject" class="text-blue-400 hover:underline">GitHub Repo</a> |
+            <a href="https://travel-updated-project.vercel.app/" class="text-blue-400 hover:underline">Live Demo</a>
+        </div>
+
+        <!-- Third Project -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-yellow-400">ZERLI - Online Flower Shop</h3>
+            <p class="mt-2 text-gray-300">E-commerce platform for buying flowers online, featuring user authentication, delivery management, and payment processing.</p>
+            <a href="https://github.com/haniz1999/zerli" class="text-blue-400 hover:underline">GitHub Repo</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Download My CV -->
+    <!-- CV Section -->
+<section id="cv" class="max-w-4xl mx-auto text-center py-16 px-6">
+    <h2 class="text-4xl font-semibold text-blue-400">Download My CV</h2>
+    <p class="mt-4 text-gray-300 text-lg leading-relaxed">Get a copy of my resume in your preferred language:</p>
+    <div class="mt-6 flex justify-center space-x-6">
+        <a href="cv/english_cv.pdf" download class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md transition">
+            📄 Download English CV
+        </a>
+        <a href="cv/hebrew_cv.pdf" download class="bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg shadow-md transition">
+            📄 Download Hebrew CV
+        </a>
+    </div>
+</section>
 
     <!-- Contact -->
-    <section class="max-w-3xl mx-auto text-center py-10 px-6 bg-gray-800 rounded-lg shadow-lg">
+    <section id="contact" class="max-w-3xl mx-auto text-center py-16 px-6 bg-gray-800 rounded-lg shadow-lg">
         <h2 class="text-4xl font-semibold text-red-400">Contact</h2>
-        <div class="mt-4 space-x-6 text-lg">
-            <a href="mailto:hanizahran3@gmail.com" class="text-blue-400 hover:underline">Email</a>
-            <a href="https://github.com/haniz1999" class="text-blue-400 hover:underline">GitHub</a>
-            <a href="https://www.linkedin.com/in/hani-zahran-520a38208/" class="text-blue-400 hover:underline">LinkedIn</a>
+        <div class="mt-4 space-y-4 text-lg">
+            <a href="tel:+972545280906" class="block text-blue-400 hover:underline">
+                📞 +972 54-5280906
+            </a>
+            <a href="mailto:hanizahran3@gmail.com" class="block text-blue-400 hover:underline">
+                📧 hanizahran3@gmail.com
+            </a>
+            <a href="https://github.com/haniz1999" class="block text-blue-400 hover:underline">
+                🔗 GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/hani-zahran-520a38208/" class="block text-blue-400 hover:underline">
+                🔗 LinkedIn
+            </a>
         </div>
     </section>
 
